@@ -11,5 +11,5 @@ class MainPage(webapp2.RequestHandler):
         self.response.write('\n')
 
 application = webapp2.WSGIApplication([
-    webapp2.Route('/.*', handler=MainPage, name='main'),
+    webapp2.Route(r'/.*', handler=MainPage, name='main'),
 ], debug=True)
