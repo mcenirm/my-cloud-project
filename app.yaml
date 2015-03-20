@@ -7,8 +7,6 @@ threadsafe: true
 libraries:
 - name: webapp2
   version: latest
-- name: django
-  version: latest
 
 handlers:
 - url: /facebook/\d+
