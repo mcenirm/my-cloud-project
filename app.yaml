@@ -1,5 +1,4 @@
-application: grounded-vista-351
-version: 1
+version: 2
 runtime: python27
 api_version: 1
 threadsafe: true
